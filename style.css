@@ -1,0 +1,27 @@
+h1{
+    text-shadow: 2px 2px 2px rgba(103, 97, 95, 0.773);
+    animation: blink 1s infinite ;
+}
+@keyframes blink{
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+form{
+    border-radius: 16px;
+    background: #e0e0e0;
+    box-shadow:  18px 18px 17px #8f8f8f,
+             -18px -18px 17px #ffffff;
+
+}
+span{
+    margin: 10px;
+
+}
